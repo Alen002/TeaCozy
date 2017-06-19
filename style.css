@@ -1,0 +1,94 @@
+body {
+
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9
+}
+
+/******************HEADER******************************************************/
+
+header {
+
+  background-color: green;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+
+  align-items: center;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  text-align: right;
+  text-decoration: underline;
+
+  display: flex;
+  justify-content: flex-end;
+
+  flex-grow: 0.95;
+}
+
+header, a {
+  padding-left: 20px;
+  color: seashell;
+}
+
+/*****************END OF HEADER *********************************************/
+
+.mainContainer {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+.mainFirst {
+  background-image: url(./image/img-mission-background.jpeg);
+  background-repeat: no-repeat;
+  margin-top: 79px;
+  height: 700px;
+  width: 1200px;
+  vertical-align: center;
+  text-align: center;
+  color: white;
+}
+
+.mainFirst p {
+  height:250px;
+  vertical-align: middle;
+
+}
+
+
+}
+
+.mainSecond {
+  height: 700px;
+  width:1000px;
+  background-color: green;
+  margin-top: auto;
+  margin-top: 40px;
+}
+.mainThird{
+  background-image: url(./image/img-locations-background.jpeg);
+  background-repeat: no-repeat;
+  background-color: ;
+  height: 500px;
+  width: 1200px;
+
+  margin-top: 40px;
+}
+
+.mainFourth {
+  height: 200px;
+  width: 1200px;
+  background-color: blue;
+  margin-top: 40px;
+}
