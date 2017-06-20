@@ -58,12 +58,20 @@ header, a {
   vertical-align: center;
   text-align: center;
   color: white;
+  display: flex;
+  align-items: center;
 }
+
+.mission {
+  background-color: black;
+  width: 1200px;
+
+}
+
 
 mainFirst p {
   height:250px;
   vertical-align: middle;
-
 }
 
 
@@ -121,7 +129,7 @@ mainFirst p {
   margin-right: 40px;
 }
 
-
+.box p {margin-top: 47px;}
 
 
 .mainFourth {
