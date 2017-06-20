@@ -137,4 +137,11 @@ mainFirst p {
   width: 1200px;
   background-color: blue;
   margin-top: 40px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  background-color: red;
+  margin-left: 20px;
 }
