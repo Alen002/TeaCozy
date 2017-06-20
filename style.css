@@ -103,12 +103,26 @@ mainFirst p {
 .mainThird{
   background-image: url(./Image/img-locations-background.jpeg);
   background-repeat: no-repeat;
-
   height: 500px;
   width: 1200px;
-
   margin-top: 40px;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.mainThird .box {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-right: 40px;
+}
+
+
+
 
 .mainFourth {
   height: 200px;
