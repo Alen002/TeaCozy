@@ -55,14 +55,14 @@ header, a {
   margin-top: 79px;
   height: 700px;
   width: 1200px;
-  /*vertical-align: center;
+  vertical-align: center;
   text-align: center;
-  color: white;*/
+  color: white;
 }
 
-/*.mainFirst p {
+mainFirst p {
   height:250px;
-  vertical-align: middle;*/
+  vertical-align: middle;
 
 }
 
@@ -70,6 +70,7 @@ header, a {
 .mainSecond {
   height: 500px;
   width: 1000px;
+  margin-top: 40px;
   background-color: green;
 
 
