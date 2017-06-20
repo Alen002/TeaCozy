@@ -73,7 +73,9 @@ mainFirst p {
   margin-top: 40px;
   background-color: green;
   display: flex;
-
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .picture img{
