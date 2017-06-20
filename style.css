@@ -50,36 +50,36 @@ header, a {
 }
 
 .mainFirst {
-  background-image: url(./image/img-mission-background.jpeg);
+  background-image: url(./Image/img-mission-background.jpeg);
   background-repeat: no-repeat;
   margin-top: 79px;
   height: 700px;
   width: 1200px;
-  vertical-align: center;
+  /*vertical-align: center;
   text-align: center;
-  color: white;
+  color: white;*/
 }
 
-.mainFirst p {
+/*.mainFirst p {
   height:250px;
-  vertical-align: middle;
+  vertical-align: middle;*/
 
 }
 
-
-}
 
 .mainSecond {
-  height: 700px;
-  width:1000px;
+  height: 500px;
+  width: 1000px;
   background-color: green;
-  margin-top: auto;
-  margin-top: 40px;
+
+
 }
+
+
 .mainThird{
-  background-image: url(./image/img-locations-background.jpeg);
+  background-image: url(./Image/img-locations-background.jpeg);
   background-repeat: no-repeat;
-  background-color: ;
+
   height: 500px;
   width: 1200px;
 
