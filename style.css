@@ -67,23 +67,37 @@ mainFirst p {
 }
 
 
+.teaMonth {
+  margin-top: 30px;
+  margin: 10px;
+  background-color: red;
+  text-align: center;
+}
+
+
+
 .mainSecond {
-  height: 500px;
+  height: 550px;
   width: 1000px;
-  margin-top: 40px;
+  margin-top: 0px;
   background-color: green;
   display: flex;
   flex-flow: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .picture img{
   width: 300px;
   height:200px;
   margin: 10px;
+  text-align: center;
 }
 
+.picture p {
+  margin-top: 10px;
+}
 
 
 .mainThird{
